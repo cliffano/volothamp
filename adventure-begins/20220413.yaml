@@ -1,0 +1,75 @@
+---
+boards:
+  Neverwinter:
+    - core: Time Is Running Out
+    - monster: Orc Archer
+    - core: Track Star
+    - monster: Hydra
+    - gatekeeper: Impenetrable Fog
+  Gauntlgrym:
+    - core: Imagine Dragons
+    - monster:
+    - core: Rock-A-Bye Vampy
+    - monster: Ceramic Golem
+    - gatekeeper: Ettercap
+  Mount_Hotenow:
+    - core: Loot Loot Loot!
+    - monster: Horde Of Skeletons
+    - core: Sally
+    - monster: Hellhound
+    - gatekeeper: Kobold Dragonshield
+  Neverwinter_Wood:
+    - core: Watch Your Step
+    - monster: Owlbear
+    - core: Slots
+    - monster: Lizard Queen
+    - boss: Deathsleep, the Green Dragon
+heroes:
+  Kiya_Astorio:
+    - race: Human
+    - class: Sorcerer
+    - personality: The Sage
+    - special_ability: Spellsmith
+    - level: 2
+    - golds: 2
+    - attacks:
+        - spell: Thunder-wave
+        - spell: Ice Storm
+        - attack: It's Alive
+    - backpack: Explorer's Backpack
+      items:
+        - Frying pan
+        - Spyglass
+        - Book of languages
+        - Climbing harness
+    - items:
+        - Spider Cloak
+        - The One Ring
+        - Ponderous Tome
+        - Axe Of The Dwarvish Lords
+        - Lyre Lyre Pants On Fire
+        - Giant Toad
+        - Pet Mimic
+  Ris_Strongheart:
+    - race: Dwarf
+    - class: Fighter
+    - personality: The Enforcer
+    - special_ability: Expert Gear
+    - level: 2
+    - golds: 5
+    - attacks:
+        - weapon: Crossbow
+        - weapon: Battleaxe
+        - attack: Brute Strength
+    - backpack: Hunter's Backpack
+      items:
+        - Fishing pole
+        - Large metal hunting trap
+        - Very warm blanket
+        - Bag of dragon teeth
+    - items:
+        - Baby Owlbear
+        - Bottomless Potion Of Swagger
+        - Pseudodragon
+        - Knot A Joke
+        - Knight Vision Goggles
