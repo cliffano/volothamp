@@ -1,0 +1,82 @@
+---
+boards:
+  Neverwinter:
+    - core: A Bit Of A Pickle
+    - monster: Undead Townspeople
+    - core: It's Dangerous To Go Alone!
+    - monster: Blue Wyrmling Dragon
+    - gatekeeper: Sound The Alarm
+  Gauntlgrym:
+    - core: So Jelly
+    - monster:
+    - core: To The Death
+    - monster: Black Pudding
+    - boss: Felbris, the Beholder
+heroes:
+  Korinn_Nemmonis:
+    - race: Red Dragonborn
+    - class: Rogue
+    - personality: The Bandit
+    - special_ability: Thief's Gift
+    - level: 2
+    - hit_points: 9
+    - golds: 1
+    - attacks:
+        - attack: Sneak Attack
+        - weapon: Short Sword
+        - attack: Survivalist
+    - backpack: Dungeoneer's Backpack
+      items:
+        - Dungeon maps
+        - Large pile of rope
+        - Vials of acid
+        - Torch and flint
+    - items:
+        - Spider Cloak
+        - Axe Of The Dwarvish Lords
+        - Lyre Lyre Pants On Fire
+        - Giant Toad
+  Lucan_Silverfrond:
+    - race: Elf
+    - class: Bard
+    - personality: The Scholar
+    - special_ability: Timeless Knowledge
+    - level: 2
+    - hit_points: 2
+    - golds: 1
+    - attacks:
+        - spell: Cloud of Daggers
+        - weapon: Short Sword
+        - attack: Natural Disaster
+    - backpack: Burglar's Backpack
+      items:
+        - Crowbar
+        - Large ball of yarn
+        - Grappling hook
+        - Lock and chains
+    - items:
+        - Pseudodragon
+        - Baby Owlbear
+        - Bottomless Potion Of Swagger
+  Tak_Strongheart:
+    - race: Dwarf
+    - class: Fighter
+    - personality: The Gambler
+    - special_ability: Ruthless Attack
+    - level: 2
+    - hit_points: 2
+    - golds: 1
+    - attacks:
+        - weapon: Pickaxe
+        - weapon: Broad-sword
+        - attack: Trick Shot
+    - backpack: Explorer's Backpack
+      items:
+        - Frying pan
+        - Spyglass
+        - Book of languages
+        - Climbing harness
+    - items:
+        - The One Ring
+        - Pet Mimic
+        - Knight Vision Goggles
