@@ -31,6 +31,7 @@ heroes:
     - personality: The Sage
     - special_ability: Spellsmith
     - level: 2
+    - hit_points: 10
     - golds: 2
     - attacks:
         - spell: Thunder-wave
@@ -56,6 +57,7 @@ heroes:
     - personality: The Enforcer
     - special_ability: Expert Gear
     - level: 2
+    - hit_points: 10
     - golds: 5
     - attacks:
         - weapon: Crossbow
