@@ -1,0 +1,89 @@
+---
+boards:
+  Gauntlgrym:
+    - core: The Show Must Go On
+    - monster: Grimlock
+    - core: Doom!
+    - monster: Intellect Devourer
+    - core: Trouble with Tieflings
+    - gatekeeper: Death Kiss
+  Neverwinter:
+    - core: Tangled Up
+    - monster: Hydra
+    - core: Go Fish
+    - monster: Orc Archer
+    - core: It's Dangerous To Go Alone!
+    - boss: The Kraken
+heroes:
+  Tak_Strongheart:
+    - race: Dwarf
+    - class: Fighter
+    - personality: Expert Gear
+    - special_ability: Trick Shot
+    - level: 2
+    - hit_points: 8
+    - golds: 0
+    - attacks:
+        - weapon: Mace
+        - weapon: Great Hammer
+        - attack: Trick Shot
+    - backpack: Merchant's Backpack
+      items:
+        - Set of fancy clothes
+        - Oil lamp
+    - items:
+        - Axe of the Dwarvish Lords
+  Thia_Silverfrond:
+    - race: Elf
+    - class: Bard
+    - personality: The Peacekeeper
+    - special_ability: Song of Rest
+    - level: 1
+    - hit_points: 9
+    - golds: 3
+    - attacks:
+        - spell: Shortbow
+        - weapon: Hideous Laughter
+        - attack: Theatrical Distraction
+    - backpack: Burglar's Backpack
+      items:
+        - Crowbar
+        - Large ball of yarn
+    - items:
+        - Pet Mimic
+  Korinn_Nemmonis:
+    - race: Red Dragonborn
+    - class: Rogue
+    - personality: The Outlaw
+    - special_ability: Sneak Attack
+    - level: 2
+    - hit_points: 9
+    - golds: 0
+    - attacks:
+        - attack: Long Sword
+        - weapon: War Axe
+        - attack: Sleight of Hand
+    - backpack: Burglar's Backpack
+      items:
+        - Grappling hook
+        - Lock and chains
+    - items:
+        - Pseudodragon
+  Salazar_Astorio:
+    - race: Human
+    - class: Sorcerer
+    - personality: The Sage
+    - special_ability: Spellsmith
+    - level: 1
+    - hit_points: 10
+    - golds: 3
+    - attacks:
+        - spell: Burning Hands
+        - spell: Magic Missiles
+        - attack: Illusionist
+    - backpack: Merchant's Backpack
+      items:
+        - Poison Kit
+        - Hunting Falcon
+    - items:
+        - Spider Cloak
