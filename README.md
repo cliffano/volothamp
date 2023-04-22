@@ -3,4 +3,4 @@
 Volothamp
 ---------
 
-Volothamp is a collection of my random D&D related stuffs.
+Volothamp is a collection of my random D&D related stuffs with Little Godzilla
