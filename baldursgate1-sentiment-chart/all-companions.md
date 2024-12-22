@@ -1,6 +1,7 @@
 # Baldur's Gate 1 / All Companions
 
 ```mermaid
+%%{init: {'theme': 'default', 'maxTextSize': 90000}}%%
   graph TD;
 
       AJANTIS-->ALORA;
@@ -1983,4 +1984,4 @@
 
       YESLICK-->XZAR;
       linkStyle 599 stroke-width:2px,fill:none,stroke:blue;
-
+```
