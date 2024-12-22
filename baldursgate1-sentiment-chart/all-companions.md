@@ -1,1987 +1,665 @@
 # Baldur's Gate 1 / All Companions
 
 ```mermaid
-%%{init: {'theme': 'default', 'maxTextSize': 90000}}%%
-  graph TD;
-
-      AJANTIS-->ALORA;
-      linkStyle 0 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->BRANWEN;
-      linkStyle 1 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->CORAN;
-      linkStyle 2 stroke-width:2px,fill:none,stroke:blue;
-
-      AJANTIS-->DYNAHEIR;
-      linkStyle 3 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->EDWIN;
-      linkStyle 4 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->ELDOTH;
-      linkStyle 5 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->FALDORN;
-      linkStyle 6 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->GARRICK;
-      linkStyle 7 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->IMOEN;
-      linkStyle 8 stroke-width:2px,fill:none,stroke:blue;
-
-      AJANTIS-->JAHEIRA;
-      linkStyle 9 stroke-width:2px,fill:none,stroke:blue;
-
-      AJANTIS-->KAGAIN;
-      linkStyle 10 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->KHALID;
-      linkStyle 11 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->KIVAN;
-      linkStyle 12 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->MINSC;
-      linkStyle 13 stroke-width:2px,fill:none,stroke:blue;
-
-      AJANTIS-->MONTARON;
-      linkStyle 14 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->QUAYLE;
-      linkStyle 15 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->SAFANA;
-      linkStyle 16 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->SHAR-TEEL;
-      linkStyle 17 stroke-width:2px,fill:none,stroke:blue;
-
-      AJANTIS-->SKIE;
-      linkStyle 18 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->TIAX;
-      linkStyle 19 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->VICONIA;
-      linkStyle 20 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->XAN;
-      linkStyle 21 stroke-width:2px,fill:none,stroke:green;
-
-      AJANTIS-->XZAR;
-      linkStyle 22 stroke-width:2px,fill:none,stroke:red;
-
-      AJANTIS-->YESLICK;
-      linkStyle 23 stroke-width:2px,fill:none,stroke:green;
-
-      ALORA-->AJANTIS;
-      linkStyle 24 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->BRANWEN;
-      linkStyle 25 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->CORAN;
-      linkStyle 26 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->DYNAHEIR;
-      linkStyle 27 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->EDWIN;
-      linkStyle 28 stroke-width:2px,fill:none,stroke:green;
-
-      ALORA-->ELDOTH;
-      linkStyle 29 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->FALDORN;
-      linkStyle 30 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->GARRICK;
-      linkStyle 31 stroke-width:2px,fill:none,stroke:green;
-
-      ALORA-->IMOEN;
-      linkStyle 32 stroke-width:2px,fill:none,stroke:green;
-
-      ALORA-->JAHEIRA;
-      linkStyle 33 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->KAGAIN;
-      linkStyle 34 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->KHALID;
-      linkStyle 35 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->KIVAN;
-      linkStyle 36 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->MINSC;
-      linkStyle 37 stroke-width:2px,fill:none,stroke:green;
-
-      ALORA-->MONTARON;
-      linkStyle 38 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->QUAYLE;
-      linkStyle 39 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->SAFANA;
-      linkStyle 40 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->SHAR-TEEL;
-      linkStyle 41 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->SKIE;
-      linkStyle 42 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->TIAX;
-      linkStyle 43 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->VICONIA;
-      linkStyle 44 stroke-width:2px,fill:none,stroke:red;
-
-      ALORA-->XAN;
-      linkStyle 45 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->XZAR;
-      linkStyle 46 stroke-width:2px,fill:none,stroke:blue;
-
-      ALORA-->YESLICK;
-      linkStyle 47 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->AJANTIS;
-      linkStyle 48 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->ALORA;
-      linkStyle 49 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->CORAN;
-      linkStyle 50 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->DYNAHEIR;
-      linkStyle 51 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->EDWIN;
-      linkStyle 52 stroke-width:2px,fill:none,stroke:red;
-
-      BRANWEN-->ELDOTH;
-      linkStyle 53 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->FALDORN;
-      linkStyle 54 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->GARRICK;
-      linkStyle 55 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->IMOEN;
-      linkStyle 56 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->JAHEIRA;
-      linkStyle 57 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->KAGAIN;
-      linkStyle 58 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->KHALID;
-      linkStyle 59 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->KIVAN;
-      linkStyle 60 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->MINSC;
-      linkStyle 61 stroke-width:2px,fill:none,stroke:green;
-
-      BRANWEN-->MONTARON;
-      linkStyle 62 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->QUAYLE;
-      linkStyle 63 stroke-width:2px,fill:none,stroke:red;
-
-      BRANWEN-->SAFANA;
-      linkStyle 64 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->SHAR-TEEL;
-      linkStyle 65 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->SKIE;
-      linkStyle 66 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->TIAX;
-      linkStyle 67 stroke-width:2px,fill:none,stroke:red;
-
-      BRANWEN-->VICONIA;
-      linkStyle 68 stroke-width:2px,fill:none,stroke:red;
-
-      BRANWEN-->XAN;
-      linkStyle 69 stroke-width:2px,fill:none,stroke:blue;
-
-      BRANWEN-->XZAR;
-      linkStyle 70 stroke-width:2px,fill:none,stroke:red;
-
-      BRANWEN-->YESLICK;
-      linkStyle 71 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->AJANTIS;
-      linkStyle 72 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->ALORA;
-      linkStyle 73 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->BRANWEN;
-      linkStyle 74 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->DYNAHEIR;
-      linkStyle 75 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->EDWIN;
-      linkStyle 76 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->ELDOTH;
-      linkStyle 77 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->FALDORN;
-      linkStyle 78 stroke-width:2px,fill:none,stroke:green;
-
-      CORAN-->GARRICK;
-      linkStyle 79 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->IMOEN;
-      linkStyle 80 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->JAHEIRA;
-      linkStyle 81 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->KAGAIN;
-      linkStyle 82 stroke-width:2px,fill:none,stroke:red;
-
-      CORAN-->KHALID;
-      linkStyle 83 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->KIVAN;
-      linkStyle 84 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->MINSC;
-      linkStyle 85 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->MONTARON;
-      linkStyle 86 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->QUAYLE;
-      linkStyle 87 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->SAFANA;
-      linkStyle 88 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->SHAR-TEEL;
-      linkStyle 89 stroke-width:2px,fill:none,stroke:red;
-
-      CORAN-->SKIE;
-      linkStyle 90 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->TIAX;
-      linkStyle 91 stroke-width:2px,fill:none,stroke:red;
-
-      CORAN-->VICONIA;
-      linkStyle 92 stroke-width:2px,fill:none,stroke:red;
-
-      CORAN-->XAN;
-      linkStyle 93 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->XZAR;
-      linkStyle 94 stroke-width:2px,fill:none,stroke:blue;
-
-      CORAN-->YESLICK;
-      linkStyle 95 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->AJANTIS;
-      linkStyle 96 stroke-width:2px,fill:none,stroke:green;
-
-      DYNAHEIR-->ALORA;
-      linkStyle 97 stroke-width:2px,fill:none,stroke:red;
-
-      DYNAHEIR-->BRANWEN;
-      linkStyle 98 stroke-width:2px,fill:none,stroke:green;
-
-      DYNAHEIR-->CORAN;
-      linkStyle 99 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->EDWIN;
-      linkStyle 100 stroke-width:2px,fill:none,stroke:red;
-
-      DYNAHEIR-->ELDOTH;
-      linkStyle 101 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->FALDORN;
-      linkStyle 102 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->GARRICK;
-      linkStyle 103 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->IMOEN;
-      linkStyle 104 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->JAHEIRA;
-      linkStyle 105 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->KAGAIN;
-      linkStyle 106 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->KHALID;
-      linkStyle 107 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->KIVAN;
-      linkStyle 108 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->MINSC;
-      linkStyle 109 stroke-width:2px,fill:none,stroke:green;
-
-      DYNAHEIR-->MONTARON;
-      linkStyle 110 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->QUAYLE;
-      linkStyle 111 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->SAFANA;
-      linkStyle 112 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->SHAR-TEEL;
-      linkStyle 113 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->SKIE;
-      linkStyle 114 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->TIAX;
-      linkStyle 115 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->VICONIA;
-      linkStyle 116 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->XAN;
-      linkStyle 117 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->XZAR;
-      linkStyle 118 stroke-width:2px,fill:none,stroke:blue;
-
-      DYNAHEIR-->YESLICK;
-      linkStyle 119 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->AJANTIS;
-      linkStyle 120 stroke-width:2px,fill:none,stroke:red;
-
-      EDWIN-->ALORA;
-      linkStyle 121 stroke-width:2px,fill:none,stroke:green;
-
-      EDWIN-->BRANWEN;
-      linkStyle 122 stroke-width:2px,fill:none,stroke:red;
-
-      EDWIN-->CORAN;
-      linkStyle 123 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->DYNAHEIR;
-      linkStyle 124 stroke-width:2px,fill:none,stroke:red;
-
-      EDWIN-->ELDOTH;
-      linkStyle 125 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->FALDORN;
-      linkStyle 126 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->GARRICK;
-      linkStyle 127 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->IMOEN;
-      linkStyle 128 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->JAHEIRA;
-      linkStyle 129 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->KAGAIN;
-      linkStyle 130 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->KHALID;
-      linkStyle 131 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->KIVAN;
-      linkStyle 132 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->MINSC;
-      linkStyle 133 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->MONTARON;
-      linkStyle 134 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->QUAYLE;
-      linkStyle 135 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->SAFANA;
-      linkStyle 136 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->SHAR-TEEL;
-      linkStyle 137 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->SKIE;
-      linkStyle 138 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->TIAX;
-      linkStyle 139 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->VICONIA;
-      linkStyle 140 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->XAN;
-      linkStyle 141 stroke-width:2px,fill:none,stroke:red;
-
-      EDWIN-->XZAR;
-      linkStyle 142 stroke-width:2px,fill:none,stroke:blue;
-
-      EDWIN-->YESLICK;
-      linkStyle 143 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->AJANTIS;
-      linkStyle 144 stroke-width:2px,fill:none,stroke:red;
-
-      ELDOTH-->ALORA;
-      linkStyle 145 stroke-width:2px,fill:none,stroke:red;
-
-      ELDOTH-->BRANWEN;
-      linkStyle 146 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->CORAN;
-      linkStyle 147 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->DYNAHEIR;
-      linkStyle 148 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->EDWIN;
-      linkStyle 149 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->FALDORN;
-      linkStyle 150 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->GARRICK;
-      linkStyle 151 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->IMOEN;
-      linkStyle 152 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->JAHEIRA;
-      linkStyle 153 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->KAGAIN;
-      linkStyle 154 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->KHALID;
-      linkStyle 155 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->KIVAN;
-      linkStyle 156 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->MINSC;
-      linkStyle 157 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->MONTARON;
-      linkStyle 158 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->QUAYLE;
-      linkStyle 159 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->SAFANA;
-      linkStyle 160 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->SHAR-TEEL;
-      linkStyle 161 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->SKIE;
-      linkStyle 162 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->TIAX;
-      linkStyle 163 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->VICONIA;
-      linkStyle 164 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->XAN;
-      linkStyle 165 stroke-width:2px,fill:none,stroke:red;
-
-      ELDOTH-->XZAR;
-      linkStyle 166 stroke-width:2px,fill:none,stroke:blue;
-
-      ELDOTH-->YESLICK;
-      linkStyle 167 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->AJANTIS;
-      linkStyle 168 stroke-width:2px,fill:none,stroke:red;
-
-      FALDORN-->ALORA;
-      linkStyle 169 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->BRANWEN;
-      linkStyle 170 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->CORAN;
-      linkStyle 171 stroke-width:2px,fill:none,stroke:green;
-
-      FALDORN-->DYNAHEIR;
-      linkStyle 172 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->EDWIN;
-      linkStyle 173 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->ELDOTH;
-      linkStyle 174 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->GARRICK;
-      linkStyle 175 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->IMOEN;
-      linkStyle 176 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->JAHEIRA;
-      linkStyle 177 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->KAGAIN;
-      linkStyle 178 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->KHALID;
-      linkStyle 179 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->KIVAN;
-      linkStyle 180 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->MINSC;
-      linkStyle 181 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->MONTARON;
-      linkStyle 182 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->QUAYLE;
-      linkStyle 183 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->SAFANA;
-      linkStyle 184 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->SHAR-TEEL;
-      linkStyle 185 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->SKIE;
-      linkStyle 186 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->TIAX;
-      linkStyle 187 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->VICONIA;
-      linkStyle 188 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->XAN;
-      linkStyle 189 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->XZAR;
-      linkStyle 190 stroke-width:2px,fill:none,stroke:blue;
-
-      FALDORN-->YESLICK;
-      linkStyle 191 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->AJANTIS;
-      linkStyle 192 stroke-width:2px,fill:none,stroke:green;
-
-      GARRICK-->ALORA;
-      linkStyle 193 stroke-width:2px,fill:none,stroke:green;
-
-      GARRICK-->BRANWEN;
-      linkStyle 194 stroke-width:2px,fill:none,stroke:green;
-
-      GARRICK-->CORAN;
-      linkStyle 195 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->DYNAHEIR;
-      linkStyle 196 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->EDWIN;
-      linkStyle 197 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->ELDOTH;
-      linkStyle 198 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->FALDORN;
-      linkStyle 199 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->IMOEN;
-      linkStyle 200 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->JAHEIRA;
-      linkStyle 201 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->KAGAIN;
-      linkStyle 202 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->KHALID;
-      linkStyle 203 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->KIVAN;
-      linkStyle 204 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->MINSC;
-      linkStyle 205 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->MONTARON;
-      linkStyle 206 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->QUAYLE;
-      linkStyle 207 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->SAFANA;
-      linkStyle 208 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->SHAR-TEEL;
-      linkStyle 209 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->SKIE;
-      linkStyle 210 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->TIAX;
-      linkStyle 211 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->VICONIA;
-      linkStyle 212 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->XAN;
-      linkStyle 213 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->XZAR;
-      linkStyle 214 stroke-width:2px,fill:none,stroke:blue;
-
-      GARRICK-->YESLICK;
-      linkStyle 215 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->AJANTIS;
-      linkStyle 216 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->ALORA;
-      linkStyle 217 stroke-width:2px,fill:none,stroke:green;
-
-      IMOEN-->BRANWEN;
-      linkStyle 218 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->CORAN;
-      linkStyle 219 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->DYNAHEIR;
-      linkStyle 220 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->EDWIN;
-      linkStyle 221 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->ELDOTH;
-      linkStyle 222 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->FALDORN;
-      linkStyle 223 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->GARRICK;
-      linkStyle 224 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->JAHEIRA;
-      linkStyle 225 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KAGAIN;
-      linkStyle 226 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KHALID;
-      linkStyle 227 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KIVAN;
-      linkStyle 228 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->MINSC;
-      linkStyle 229 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->MONTARON;
-      linkStyle 230 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->QUAYLE;
-      linkStyle 231 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SAFANA;
-      linkStyle 232 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SHAR-TEEL;
-      linkStyle 233 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SKIE;
-      linkStyle 234 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->TIAX;
-      linkStyle 235 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->VICONIA;
-      linkStyle 236 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->XAN;
-      linkStyle 237 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->XZAR;
-      linkStyle 238 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->YESLICK;
-      linkStyle 239 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->AJANTIS;
-      linkStyle 240 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->ALORA;
-      linkStyle 241 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->BRANWEN;
-      linkStyle 242 stroke-width:2px,fill:none,stroke:green;
-
-      JAHEIRA-->CORAN;
-      linkStyle 243 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->DYNAHEIR;
-      linkStyle 244 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->EDWIN;
-      linkStyle 245 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->ELDOTH;
-      linkStyle 246 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->FALDORN;
-      linkStyle 247 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->GARRICK;
-      linkStyle 248 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->IMOEN;
-      linkStyle 249 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->KAGAIN;
-      linkStyle 250 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->KHALID;
-      linkStyle 251 stroke-width:2px,fill:none,stroke:green;
-
-      JAHEIRA-->KIVAN;
-      linkStyle 252 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->MINSC;
-      linkStyle 253 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->MONTARON;
-      linkStyle 254 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->QUAYLE;
-      linkStyle 255 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SAFANA;
-      linkStyle 256 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SHAR-TEEL;
-      linkStyle 257 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SKIE;
-      linkStyle 258 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->TIAX;
-      linkStyle 259 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->VICONIA;
-      linkStyle 260 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->XAN;
-      linkStyle 261 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->XZAR;
-      linkStyle 262 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->YESLICK;
-      linkStyle 263 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->AJANTIS;
-      linkStyle 264 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->ALORA;
-      linkStyle 265 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->BRANWEN;
-      linkStyle 266 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->CORAN;
-      linkStyle 267 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->DYNAHEIR;
-      linkStyle 268 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->EDWIN;
-      linkStyle 269 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->ELDOTH;
-      linkStyle 270 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->FALDORN;
-      linkStyle 271 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->GARRICK;
-      linkStyle 272 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->IMOEN;
-      linkStyle 273 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->JAHEIRA;
-      linkStyle 274 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->KHALID;
-      linkStyle 275 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->KIVAN;
-      linkStyle 276 stroke-width:2px      IMOEN-->AJANTIS;
-      linkStyle 216 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->ALORA;
-      linkStyle 217 stroke-width:2px,fill:none,stroke:green;
-
-      IMOEN-->BRANWEN;
-      linkStyle 218 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->CORAN;
-      linkStyle 219 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->DYNAHEIR;
-      linkStyle 220 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->EDWIN;
-      linkStyle 221 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->ELDOTH;
-      linkStyle 222 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->FALDORN;
-      linkStyle 223 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->GARRICK;
-      linkStyle 224 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->JAHEIRA;
-      linkStyle 225 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KAGAIN;
-      linkStyle 226 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KHALID;
-      linkStyle 227 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->KIVAN;
-      linkStyle 228 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->MINSC;
-      linkStyle 229 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->MONTARON;
-      linkStyle 230 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->QUAYLE;
-      linkStyle 231 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SAFANA;
-      linkStyle 232 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SHAR-TEEL;
-      linkStyle 233 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->SKIE;
-      linkStyle 234 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->TIAX;
-      linkStyle 235 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->VICONIA;
-      linkStyle 236 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->XAN;
-      linkStyle 237 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->XZAR;
-      linkStyle 238 stroke-width:2px,fill:none,stroke:blue;
-
-      IMOEN-->YESLICK;
-      linkStyle 239 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->AJANTIS;
-      linkStyle 240 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->ALORA;
-      linkStyle 241 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->BRANWEN;
-      linkStyle 242 stroke-width:2px,fill:none,stroke:green;
-
-      JAHEIRA-->CORAN;
-      linkStyle 243 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->DYNAHEIR;
-      linkStyle 244 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->EDWIN;
-      linkStyle 245 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->ELDOTH;
-      linkStyle 246 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->FALDORN;
-      linkStyle 247 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->GARRICK;
-      linkStyle 248 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->IMOEN;
-      linkStyle 249 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->KAGAIN;
-      linkStyle 250 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->KHALID;
-      linkStyle 251 stroke-width:2px,fill:none,stroke:green;
-
-      JAHEIRA-->KIVAN;
-      linkStyle 252 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->MINSC;
-      linkStyle 253 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->MONTARON;
-      linkStyle 254 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->QUAYLE;
-      linkStyle 255 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SAFANA;
-      linkStyle 256 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SHAR-TEEL;
-      linkStyle 257 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->SKIE;
-      linkStyle 258 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->TIAX;
-      linkStyle 259 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->VICONIA;
-      linkStyle 260 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->XAN;
-      linkStyle 261 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->XZAR;
-      linkStyle 262 stroke-width:2px,fill:none,stroke:blue;
-
-      JAHEIRA-->YESLICK;
-      linkStyle 263 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->AJANTIS;
-      linkStyle 264 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->ALORA;
-      linkStyle 265 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->BRANWEN;
-      linkStyle 266 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->CORAN;
-      linkStyle 267 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->DYNAHEIR;
-      linkStyle 268 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->EDWIN;
-      linkStyle 269 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->ELDOTH;
-      linkStyle 270 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->FALDORN;
-      linkStyle 271 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->GARRICK;
-      linkStyle 272 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->IMOEN;
-      linkStyle 273 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->JAHEIRA;
-      linkStyle 274 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->KHALID;
-      linkStyle 275 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->KIVAN;
-      linkStyle 276 stroke-width:2px,fill:none,stroke:red;
-
-      KAGAIN-->MINSC;
-      linkStyle 277 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->MONTARON;
-      linkStyle 278 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->QUAYLE;
-      linkStyle 279 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->SAFANA;
-      linkStyle 280 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->SHAR-TEEL;
-      linkStyle 281 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->SKIE;
-      linkStyle 282 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->TIAX;
-      linkStyle 283 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->VICONIA;
-      linkStyle 284 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->XAN;
-      linkStyle 285 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->XZAR;
-      linkStyle 286 stroke-width:2px,fill:none,stroke:blue;
-
-      KAGAIN-->YESLICK;
-      linkStyle 287 stroke-width:2px,fill:none,stroke:red;
-
-      KHALID-->AJANTIS;
-      linkStyle 288 stroke-width:2px,fill:none,stroke:green;
-
-      KHALID-->ALORA;
-      linkStyle 289 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->BRANWEN;
-      linkStyle 290 stroke-width:2px,fill:none,stroke:green;
-
-      KHALID-->CORAN;
-      linkStyle 291 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->DYNAHEIR;
-      linkStyle 292 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->EDWIN;
-      linkStyle 293 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->ELDOTH;
-      linkStyle 294 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->FALDORN;
-      linkStyle 295 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->GARRICK;
-      linkStyle 296 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->IMOEN;
-      linkStyle 297 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->JAHEIRA;
-      linkStyle 298 stroke-width:2px,fill:none,stroke:green;
-
-      KHALID-->KAGAIN;
-      linkStyle 299 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->KIVAN;
-      linkStyle 300 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->MINSC;
-      linkStyle 301 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->MONTARON;
-      linkStyle 302 stroke-width:2px,fill:none,stroke:red;
-
-      KHALID-->QUAYLE;
-      linkStyle 303 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->SAFANA;
-      linkStyle 304 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->SHAR-TEEL;
-      linkStyle 305 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->SKIE;
-      linkStyle 306 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->TIAX;
-      linkStyle 307 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->VICONIA;
-      linkStyle 308 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->XAN;
-      linkStyle 309 stroke-width:2px,fill:none,stroke:blue;
-
-      KHALID-->XZAR;
-      linkStyle 310 stroke-width:2px,fill:none,stroke:red;
-
-      KHALID-->YESLICK;
-      linkStyle 311 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->AJANTIS;
-      linkStyle 312 stroke-width:2px,fill:none,stroke:green;
-
-      KIVAN-->ALORA;
-      linkStyle 313 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->BRANWEN;
-      linkStyle 314 stroke-width:2px,fill:none,stroke:green;
-
-      KIVAN-->CORAN;
-      linkStyle 315 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->DYNAHEIR;
-      linkStyle 316 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->EDWIN;
-      linkStyle 317 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->ELDOTH;
-      linkStyle 318 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->FALDORN;
-      linkStyle 319 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->GARRICK;
-      linkStyle 320 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->IMOEN;
-      linkStyle 321 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->JAHEIRA;
-      linkStyle 322 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->KAGAIN;
-      linkStyle 323 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->KHALID;
-      linkStyle 324 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->MINSC;
-      linkStyle 325 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->MONTARON;
-      linkStyle 326 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->QUAYLE;
-      linkStyle 327 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->SAFANA;
-      linkStyle 328 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->SHAR-TEEL;
-      linkStyle 329 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->SKIE;
-      linkStyle 330 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->TIAX;
-      linkStyle 331 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->VICONIA;
-      linkStyle 332 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->XAN;
-      linkStyle 333 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->XZAR;
-      linkStyle 334 stroke-width:2px,fill:none,stroke:blue;
-
-      KIVAN-->YESLICK;
-      linkStyle 335 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->AJANTIS;
-      linkStyle 336 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->ALORA;
-      linkStyle 337 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->BRANWEN;
-      linkStyle 338 stroke-width:2px,fill:none,stroke:green;
-
-      MINSC-->CORAN;
-      linkStyle 339 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->DYNAHEIR;
-      linkStyle 340 stroke-width:2px,fill:none,stroke:green;
-
-      MINSC-->EDWIN;
-      linkStyle 341 stroke-width:2px,fill:none,stroke:red;
-
-      MINSC-->ELDOTH;
-      linkStyle 342 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->FALDORN;
-      linkStyle 343 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->GARRICK;
-      linkStyle 344 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->IMOEN;
-      linkStyle 345 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->JAHEIRA;
-      linkStyle 346 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KAGAIN;
-      linkStyle 347 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KHALID;
-      linkStyle 348 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KIVAN;
-      linkStyle 349 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->MONTARON;
-      linkStyle 350 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->QUAYLE;
-      linkStyle 351 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SAFANA;
-      linkStyle 352 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SHAR-TEEL;
-      linkStyle 353 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SKIE;
-      linkStyle 354 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->TIAX;
-      linkStyle 355 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->VICONIA;
-      linkStyle 356 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->XAN;
-      linkStyle 357 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->XZAR;
-      linkStyle 358 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->YESLICK;
-      linkStyle 359 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->AJANTIS;
-      linkStyle 360 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->ALORA;
-      linkStyle 361 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->BRANWEN;
-      linkStyle 362 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->CORAN;
-      linkStyle 363 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->DYNAHEIR;
-      linkStyle 364 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->EDWIN;
-      linkStyle 365 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->ELDOTH;
-      linkStyle 366 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->FALDORN;
-      linkStyle 367 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->GARRICK;
-      linkStyle 368 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->IMOEN;
-      linkStyle 369 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->JAHEIRA;
-      linkStyle 370 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->KAGAIN;
-      linkStyle 371 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->KHALID;
-      linkStyle 372 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->KIVAN;
-      linkStyle 373 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->MINSC;
-      linkStyle 374 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->QUAYLE;
-      linkStyle 375 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SAFANA;
-      linkStyle 376 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SHAR-TEEL;
-      linkStyle 377 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SKIE;
-      linkStyle 378 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->TIAX;
-      linkStyle 379 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->VICONIA;
-      linkStyle 380 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->XAN;
-      linkStyle 381 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->XZAR;
-      linkStyle 382 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->YESLICK;
-      linkStyle 383 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->AJANTIS;
-      linkStyle 384 stroke-width:2px,fill:none,stroke:red;
-
-      QUAYLE-->ALORA;
-      linkStyle 385 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->BRANWEN;
-      linkStyle 386 stroke-width:2px,fill:none,stroke:red;
-
-      QUAYLE-->CORAN;
-      linkStyle 387 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->DYNAHEIR;
-      linkStyle 388 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->EDWIN;
-      linkStyle 389 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->ELDOTH;
-      linkStyle 390 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->FALDORN;
-      linkStyle 391 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->GARRICK;
-      linkStyle 392 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->IMOEN;
-      linkStyle 393 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->JAHEIRA;
-      linkStyle 394 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KAGAIN;
-      linkStyle 395 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KHALID;
-      linkStyle 396 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KIVAN;
-      linkStyle 397 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->MINSC;
-      linkStyle 398 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->MONTARON;
-      linkStyle 399 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SAFANA;
-      linkStyle 400 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SHAR-TEEL;
-      linkStyle 401 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SKIE;
-      linkStyle 402 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->TIAX;
-      linkStyle 403 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->VICONIA;
-      linkStyle 404 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->XAN;
-      linkStyle 405 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->XZAR;
-      linkStyle 406 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->YESLICK;
-      linkStyle 407 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->AJANTIS;
-      linkStyle 336 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->ALORA;
-      linkStyle 337 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->BRANWEN;
-      linkStyle 338 stroke-width:2px,fill:none,stroke:green;
-
-      MINSC-->CORAN;
-      linkStyle 339 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->DYNAHEIR;
-      linkStyle 340 stroke-width:2px,fill:none,stroke:green;
-
-      MINSC-->EDWIN;
-      linkStyle 341 stroke-width:2px,fill:none,stroke:red;
-
-      MINSC-->ELDOTH;
-      linkStyle 342 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->FALDORN;
-      linkStyle 343 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->GARRICK;
-      linkStyle 344 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->IMOEN;
-      linkStyle 345 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->JAHEIRA;
-      linkStyle 346 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KAGAIN;
-      linkStyle 347 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KHALID;
-      linkStyle 348 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->KIVAN;
-      linkStyle 349 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->MONTARON;
-      linkStyle 350 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->QUAYLE;
-      linkStyle 351 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SAFANA;
-      linkStyle 352 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SHAR-TEEL;
-      linkStyle 353 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->SKIE;
-      linkStyle 354 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->TIAX;
-      linkStyle 355 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->VICONIA;
-      linkStyle 356 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->XAN;
-      linkStyle 357 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->XZAR;
-      linkStyle 358 stroke-width:2px,fill:none,stroke:blue;
-
-      MINSC-->YESLICK;
-      linkStyle 359 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->AJANTIS;
-      linkStyle 360 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->ALORA;
-      linkStyle 361 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->BRANWEN;
-      linkStyle 362 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->CORAN;
-      linkStyle 363 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->DYNAHEIR;
-      linkStyle 364 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->EDWIN;
-      linkStyle 365 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->ELDOTH;
-      linkStyle 366 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->FALDORN;
-      linkStyle 367 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->GARRICK;
-      linkStyle 368 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->IMOEN;
-      linkStyle 369 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->JAHEIRA;
-      linkStyle 370 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->KAGAIN;
-      linkStyle 371 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->KHALID;
-      linkStyle 372 stroke-width:2px,fill:none,stroke:red;
-
-      MONTARON-->KIVAN;
-      linkStyle 373 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->MINSC;
-      linkStyle 374 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->QUAYLE;
-      linkStyle 375 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SAFANA;
-      linkStyle 376 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SHAR-TEEL;
-      linkStyle 377 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->SKIE;
-      linkStyle 378 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->TIAX;
-      linkStyle 379 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->VICONIA;
-      linkStyle 380 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->XAN;
-      linkStyle 381 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->XZAR;
-      linkStyle 382 stroke-width:2px,fill:none,stroke:blue;
-
-      MONTARON-->YESLICK;
-      linkStyle 383 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->AJANTIS;
-      linkStyle 384 stroke-width:2px,fill:none,stroke:red;
-
-      QUAYLE-->ALORA;
-      linkStyle 385 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->BRANWEN;
-      linkStyle 386 stroke-width:2px,fill:none,stroke:red;
-
-      QUAYLE-->CORAN;
-      linkStyle 387 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->DYNAHEIR;
-      linkStyle 388 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->EDWIN;
-      linkStyle 389 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->ELDOTH;
-      linkStyle 390 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->FALDORN;
-      linkStyle 391 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->GARRICK;
-      linkStyle 392 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->IMOEN;
-      linkStyle 393 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->JAHEIRA;
-      linkStyle 394 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KAGAIN;
-      linkStyle 395 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KHALID;
-      linkStyle 396 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->KIVAN;
-      linkStyle 397 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->MINSC;
-      linkStyle 398 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->MONTARON;
-      linkStyle 399 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SAFANA;
-      linkStyle 400 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SHAR-TEEL;
-      linkStyle 401 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->SKIE;
-      linkStyle 402 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->TIAX;
-      linkStyle 403 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->VICONIA;
-      linkStyle 404 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->XAN;
-      linkStyle 405 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->XZAR;
-      linkStyle 406 stroke-width:2px,fill:none,stroke:blue;
-
-      QUAYLE-->YESLICK;
-      linkStyle 407 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->AJANTIS;
-      linkStyle 480 stroke-width:2px,fill:none,stroke:red;
-
-      TIAX-->ALORA;
-      linkStyle 481 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->BRANWEN;
-      linkStyle 482 stroke-width:2px,fill:none,stroke:red;
-
-      TIAX-->CORAN;
-      linkStyle 483 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->DYNAHEIR;
-      linkStyle 484 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->EDWIN;
-      linkStyle 485 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->ELDOTH;
-      linkStyle 486 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->FALDORN;
-      linkStyle 487 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->GARRICK;
-      linkStyle 488 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->IMOEN;
-      linkStyle 489 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->JAHEIRA;
-      linkStyle 490 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->KAGAIN;
-      linkStyle 491 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->KHALID;
-      linkStyle 492 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->KIVAN;
-      linkStyle 493 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->MINSC;
-      linkStyle 494 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->MONTARON;
-      linkStyle 495 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->QUAYLE;
-      linkStyle 496 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->SAFANA;
-      linkStyle 497 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->SHAR-TEEL;
-      linkStyle 498 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->SKIE;
-      linkStyle 499 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->VICONIA;
-      linkStyle 500 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->XAN;
-      linkStyle 501 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->XZAR;
-      linkStyle 502 stroke-width:2px,fill:none,stroke:blue;
-
-      TIAX-->YESLICK;
-      linkStyle 503 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->AJANTIS;
-      linkStyle 504 stroke-width:2px,fill:none,stroke:red;
-
-      VICONIA-->ALORA;
-      linkStyle 505 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->BRANWEN;
-      linkStyle 506 stroke-width:2px,fill:none,stroke:red;
-
-      VICONIA-->CORAN;
-      linkStyle 507 stroke-width:2px,fill:none,stroke:green;
-
-      VICONIA-->DYNAHEIR;
-      linkStyle 508 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->EDWIN;
-      linkStyle 509 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->ELDOTH;
-      linkStyle 510 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->FALDORN;
-      linkStyle 511 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->GARRICK;
-      linkStyle 512 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->IMOEN;
-      linkStyle 513 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->JAHEIRA;
-      linkStyle 514 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->KAGAIN;
-      linkStyle 515 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->KHALID;
-      linkStyle 516 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->KIVAN;
-      linkStyle 517 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->MINSC;
-      linkStyle 518 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->MONTARON;
-      linkStyle 519 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->QUAYLE;
-      linkStyle 520 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->SAFANA;
-      linkStyle 521 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->SHAR-TEEL;
-      linkStyle 522 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->SKIE;
-      linkStyle 523 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->TIAX;
-      linkStyle 524 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->XAN;
-      linkStyle 525 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->XZAR;
-      linkStyle 526 stroke-width:2px,fill:none,stroke:blue;
-
-      VICONIA-->YESLICK;
-      linkStyle 527 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->AJANTIS;
-      linkStyle 528 stroke-width:2px,fill:none,stroke:red;
-
-      XAN-->ALORA;
-      linkStyle 529 stroke-width:2px,fill:none,stroke:red;
-
-      XAN-->BRANWEN;
-      linkStyle 530 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->CORAN;
-      linkStyle 531 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->DYNAHEIR;
-      linkStyle 532 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->EDWIN;
-      linkStyle 533 stroke-width:2px,fill:none,stroke:red;
-
-      XAN-->ELDOTH;
-      linkStyle 534 stroke-width:2px,fill:none,stroke:red;
-
-      XAN-->FALDORN;
-      linkStyle 535 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->GARRICK;
-      linkStyle 536 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->IMOEN;
-      linkStyle 537 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->JAHEIRA;
-      linkStyle 538 stroke-width:2px,fill:none,stroke:green;
-
-      XAN-->KAGAIN;
-      linkStyle 539 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->KHALID;
-      linkStyle 540 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->KIVAN;
-      linkStyle 541 stroke-width:2px,fill:none,stroke:green;
-
-      XAN-->MINSC;
-      linkStyle 542 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->MONTARON;
-      linkStyle 543 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->QUAYLE;
-      linkStyle 544 stroke-width:2px,fill:none,stroke:red;
-
-      XAN-->SAFANA;
-      linkStyle 545 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->SHAR-TEEL;
-      linkStyle 546 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->SKIE;
-      linkStyle 547 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->TIAX;
-      linkStyle 548 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->VICONIA;
-      linkStyle 549 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->XZAR;
-      linkStyle 550 stroke-width:2px,fill:none,stroke:blue;
-
-      XAN-->YESLICK;
-      linkStyle 551 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->AJANTIS;
-      linkStyle 552 stroke-width:2px,fill:none,stroke:red;
-
-      XZAR-->ALORA;
-      linkStyle 553 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->BRANWEN;
-      linkStyle 554 stroke-width:2px,fill:none,stroke:red;
-
-      XZAR-->CORAN;
-      linkStyle 555 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->DYNAHEIR;
-      linkStyle 556 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->EDWIN;
-      linkStyle 557 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->ELDOTH;
-      linkStyle 558 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->FALDORN;
-      linkStyle 559 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->GARRICK;
-      linkStyle 560 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->IMOEN;
-      linkStyle 561 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->JAHEIRA;
-      linkStyle 562 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->KAGAIN;
-      linkStyle 563 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->KHALID;
-      linkStyle 564 stroke-width:2px,fill:none,stroke:red;
-
-      XZAR-->KIVAN;
-      linkStyle 565 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->MINSC;
-      linkStyle 566 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->MONTARON;
-      linkStyle 567 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->QUAYLE;
-      linkStyle 568 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->SAFANA;
-      linkStyle 569 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->SHAR-TEEL;
-      linkStyle 570 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->SKIE;
-      linkStyle 571 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->TIAX;
-      linkStyle 572 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->VICONIA;
-      linkStyle 573 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->XAN;
-      linkStyle 574 stroke-width:2px,fill:none,stroke:blue;
-
-      XZAR-->YESLICK;
-      linkStyle 575 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->AJANTIS;
-      linkStyle 576 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->ALORA;
-      linkStyle 577 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->BRANWEN;
-      linkStyle 578 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->CORAN;
-      linkStyle 579 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->DYNAHEIR;
-      linkStyle 580 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->EDWIN;
-      linkStyle 581 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->ELDOTH;
-      linkStyle 582 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->FALDORN;
-      linkStyle 583 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->GARRICK;
-      linkStyle 584 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->IMOEN;
-      linkStyle 585 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->JAHEIRA;
-      linkStyle 586 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->KAGAIN;
-      linkStyle 587 stroke-width:2px,fill:none,stroke:red;
-
-      YESLICK-->KHALID;
-      linkStyle 588 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->KIVAN;
-      linkStyle 589 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->MINSC;
-      linkStyle 590 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->MONTARON;
-      linkStyle 591 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->QUAYLE;
-      linkStyle 592 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->SAFANA;
-      linkStyle 593 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->SHAR-TEEL;
-      linkStyle 594 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->SKIE;
-      linkStyle 595 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->TIAX;
-      linkStyle 596 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->VICONIA;
-      linkStyle 597 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->XAN;
-      linkStyle 598 stroke-width:2px,fill:none,stroke:blue;
-
-      YESLICK-->XZAR;
-      linkStyle 599 stroke-width:2px,fill:none,stroke:blue;
+graph TD;
+AJANTIS-->ALORA;linkStyle 0 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->BRANWEN;linkStyle 1 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->CORAN;linkStyle 2 stroke-width:2px,fill:none,stroke:blue;
+AJANTIS-->DYNAHEIR;linkStyle 3 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->EDWIN;linkStyle 4 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->ELDOTH;linkStyle 5 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->FALDORN;linkStyle 6 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->GARRICK;linkStyle 7 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->IMOEN;linkStyle 8 stroke-width:2px,fill:none,stroke:blue;
+AJANTIS-->JAHEIRA;linkStyle 9 stroke-width:2px,fill:none,stroke:blue;
+AJANTIS-->KAGAIN;linkStyle 10 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->KHALID;linkStyle 11 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->KIVAN;linkStyle 12 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->MINSC;linkStyle 13 stroke-width:2px,fill:none,stroke:blue;
+AJANTIS-->MONTARON;linkStyle 14 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->QUAYLE;linkStyle 15 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->SAFANA;linkStyle 16 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->SHAR-TEEL;linkStyle 17 stroke-width:2px,fill:none,stroke:blue;
+AJANTIS-->SKIE;linkStyle 18 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->TIAX;linkStyle 19 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->VICONIA;linkStyle 20 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->XAN;linkStyle 21 stroke-width:2px,fill:none,stroke:green;
+AJANTIS-->XZAR;linkStyle 22 stroke-width:2px,fill:none,stroke:red;
+AJANTIS-->YESLICK;linkStyle 23 stroke-width:2px,fill:none,stroke:green;
+ALORA-->AJANTIS;linkStyle 24 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->BRANWEN;linkStyle 25 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->CORAN;linkStyle 26 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->DYNAHEIR;linkStyle 27 stroke-width:2px,fill:none,stroke:red;
+ALORA-->EDWIN;linkStyle 28 stroke-width:2px,fill:none,stroke:green;
+ALORA-->ELDOTH;linkStyle 29 stroke-width:2px,fill:none,stroke:red;
+ALORA-->FALDORN;linkStyle 30 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->GARRICK;linkStyle 31 stroke-width:2px,fill:none,stroke:green;
+ALORA-->IMOEN;linkStyle 32 stroke-width:2px,fill:none,stroke:green;
+ALORA-->JAHEIRA;linkStyle 33 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->KAGAIN;linkStyle 34 stroke-width:2px,fill:none,stroke:red;
+ALORA-->KHALID;linkStyle 35 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->KIVAN;linkStyle 36 stroke-width:2px,fill:none,stroke:red;
+ALORA-->MINSC;linkStyle 37 stroke-width:2px,fill:none,stroke:green;
+ALORA-->MONTARON;linkStyle 38 stroke-width:2px,fill:none,stroke:red;
+ALORA-->QUAYLE;linkStyle 39 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->SAFANA;linkStyle 40 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->SHAR-TEEL;linkStyle 41 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->SKIE;linkStyle 42 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->TIAX;linkStyle 43 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->VICONIA;linkStyle 44 stroke-width:2px,fill:none,stroke:red;
+ALORA-->XAN;linkStyle 45 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->XZAR;linkStyle 46 stroke-width:2px,fill:none,stroke:blue;
+ALORA-->YESLICK;linkStyle 47 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->AJANTIS;linkStyle 48 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->ALORA;linkStyle 49 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->CORAN;linkStyle 50 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->DYNAHEIR;linkStyle 51 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->EDWIN;linkStyle 52 stroke-width:2px,fill:none,stroke:red;
+BRANWEN-->ELDOTH;linkStyle 53 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->FALDORN;linkStyle 54 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->GARRICK;linkStyle 55 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->IMOEN;linkStyle 56 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->JAHEIRA;linkStyle 57 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->KAGAIN;linkStyle 58 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->KHALID;linkStyle 59 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->KIVAN;linkStyle 60 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->MINSC;linkStyle 61 stroke-width:2px,fill:none,stroke:green;
+BRANWEN-->MONTARON;linkStyle 62 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->QUAYLE;linkStyle 63 stroke-width:2px,fill:none,stroke:red;
+BRANWEN-->SAFANA;linkStyle 64 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->SHAR-TEEL;linkStyle 65 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->SKIE;linkStyle 66 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->TIAX;linkStyle 67 stroke-width:2px,fill:none,stroke:red;
+BRANWEN-->VICONIA;linkStyle 68 stroke-width:2px,fill:none,stroke:red;
+BRANWEN-->XAN;linkStyle 69 stroke-width:2px,fill:none,stroke:blue;
+BRANWEN-->XZAR;linkStyle 70 stroke-width:2px,fill:none,stroke:red;
+BRANWEN-->YESLICK;linkStyle 71 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->AJANTIS;linkStyle 72 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->ALORA;linkStyle 73 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->BRANWEN;linkStyle 74 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->DYNAHEIR;linkStyle 75 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->EDWIN;linkStyle 76 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->ELDOTH;linkStyle 77 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->FALDORN;linkStyle 78 stroke-width:2px,fill:none,stroke:green;
+CORAN-->GARRICK;linkStyle 79 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->IMOEN;linkStyle 80 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->JAHEIRA;linkStyle 81 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->KAGAIN;linkStyle 82 stroke-width:2px,fill:none,stroke:red;
+CORAN-->KHALID;linkStyle 83 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->KIVAN;linkStyle 84 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->MINSC;linkStyle 85 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->MONTARON;linkStyle 86 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->QUAYLE;linkStyle 87 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->SAFANA;linkStyle 88 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->SHAR-TEEL;linkStyle 89 stroke-width:2px,fill:none,stroke:red;
+CORAN-->SKIE;linkStyle 90 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->TIAX;linkStyle 91 stroke-width:2px,fill:none,stroke:red;
+CORAN-->VICONIA;linkStyle 92 stroke-width:2px,fill:none,stroke:red;
+CORAN-->XAN;linkStyle 93 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->XZAR;linkStyle 94 stroke-width:2px,fill:none,stroke:blue;
+CORAN-->YESLICK;linkStyle 95 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->AJANTIS;linkStyle 96 stroke-width:2px,fill:none,stroke:green;
+DYNAHEIR-->ALORA;linkStyle 97 stroke-width:2px,fill:none,stroke:red;
+DYNAHEIR-->BRANWEN;linkStyle 98 stroke-width:2px,fill:none,stroke:green;
+DYNAHEIR-->CORAN;linkStyle 99 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->EDWIN;linkStyle 100 stroke-width:2px,fill:none,stroke:red;
+DYNAHEIR-->ELDOTH;linkStyle 101 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->FALDORN;linkStyle 102 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->GARRICK;linkStyle 103 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->IMOEN;linkStyle 104 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->JAHEIRA;linkStyle 105 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->KAGAIN;linkStyle 106 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->KHALID;linkStyle 107 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->KIVAN;linkStyle 108 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->MINSC;linkStyle 109 stroke-width:2px,fill:none,stroke:green;
+DYNAHEIR-->MONTARON;linkStyle 110 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->QUAYLE;linkStyle 111 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->SAFANA;linkStyle 112 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->SHAR-TEEL;linkStyle 113 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->SKIE;linkStyle 114 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->TIAX;linkStyle 115 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->VICONIA;linkStyle 116 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->XAN;linkStyle 117 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->XZAR;linkStyle 118 stroke-width:2px,fill:none,stroke:blue;
+DYNAHEIR-->YESLICK;linkStyle 119 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->AJANTIS;linkStyle 120 stroke-width:2px,fill:none,stroke:red;
+EDWIN-->ALORA;linkStyle 121 stroke-width:2px,fill:none,stroke:green;
+EDWIN-->BRANWEN;linkStyle 122 stroke-width:2px,fill:none,stroke:red;
+EDWIN-->CORAN;linkStyle 123 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->DYNAHEIR;linkStyle 124 stroke-width:2px,fill:none,stroke:red;
+EDWIN-->ELDOTH;linkStyle 125 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->FALDORN;linkStyle 126 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->GARRICK;linkStyle 127 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->IMOEN;linkStyle 128 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->JAHEIRA;linkStyle 129 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->KAGAIN;linkStyle 130 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->KHALID;linkStyle 131 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->KIVAN;linkStyle 132 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->MINSC;linkStyle 133 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->MONTARON;linkStyle 134 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->QUAYLE;linkStyle 135 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->SAFANA;linkStyle 136 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->SHAR-TEEL;linkStyle 137 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->SKIE;linkStyle 138 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->TIAX;linkStyle 139 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->VICONIA;linkStyle 140 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->XAN;linkStyle 141 stroke-width:2px,fill:none,stroke:red;
+EDWIN-->XZAR;linkStyle 142 stroke-width:2px,fill:none,stroke:blue;
+EDWIN-->YESLICK;linkStyle 143 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->AJANTIS;linkStyle 144 stroke-width:2px,fill:none,stroke:red;
+ELDOTH-->ALORA;linkStyle 145 stroke-width:2px,fill:none,stroke:red;
+ELDOTH-->BRANWEN;linkStyle 146 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->CORAN;linkStyle 147 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->DYNAHEIR;linkStyle 148 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->EDWIN;linkStyle 149 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->FALDORN;linkStyle 150 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->GARRICK;linkStyle 151 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->IMOEN;linkStyle 152 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->JAHEIRA;linkStyle 153 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->KAGAIN;linkStyle 154 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->KHALID;linkStyle 155 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->KIVAN;linkStyle 156 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->MINSC;linkStyle 157 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->MONTARON;linkStyle 158 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->QUAYLE;linkStyle 159 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->SAFANA;linkStyle 160 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->SHAR-TEEL;linkStyle 161 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->SKIE;linkStyle 162 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->TIAX;linkStyle 163 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->VICONIA;linkStyle 164 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->XAN;linkStyle 165 stroke-width:2px,fill:none,stroke:red;
+ELDOTH-->XZAR;linkStyle 166 stroke-width:2px,fill:none,stroke:blue;
+ELDOTH-->YESLICK;linkStyle 167 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->AJANTIS;linkStyle 168 stroke-width:2px,fill:none,stroke:red;
+FALDORN-->ALORA;linkStyle 169 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->BRANWEN;linkStyle 170 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->CORAN;linkStyle 171 stroke-width:2px,fill:none,stroke:green;
+FALDORN-->DYNAHEIR;linkStyle 172 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->EDWIN;linkStyle 173 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->ELDOTH;linkStyle 174 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->GARRICK;linkStyle 175 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->IMOEN;linkStyle 176 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->JAHEIRA;linkStyle 177 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->KAGAIN;linkStyle 178 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->KHALID;linkStyle 179 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->KIVAN;linkStyle 180 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->MINSC;linkStyle 181 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->MONTARON;linkStyle 182 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->QUAYLE;linkStyle 183 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->SAFANA;linkStyle 184 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->SHAR-TEEL;linkStyle 185 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->SKIE;linkStyle 186 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->TIAX;linkStyle 187 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->VICONIA;linkStyle 188 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->XAN;linkStyle 189 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->XZAR;linkStyle 190 stroke-width:2px,fill:none,stroke:blue;
+FALDORN-->YESLICK;linkStyle 191 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->AJANTIS;linkStyle 192 stroke-width:2px,fill:none,stroke:green;
+GARRICK-->ALORA;linkStyle 193 stroke-width:2px,fill:none,stroke:green;
+GARRICK-->BRANWEN;linkStyle 194 stroke-width:2px,fill:none,stroke:green;
+GARRICK-->CORAN;linkStyle 195 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->DYNAHEIR;linkStyle 196 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->EDWIN;linkStyle 197 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->ELDOTH;linkStyle 198 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->FALDORN;linkStyle 199 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->IMOEN;linkStyle 200 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->JAHEIRA;linkStyle 201 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->KAGAIN;linkStyle 202 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->KHALID;linkStyle 203 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->KIVAN;linkStyle 204 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->MINSC;linkStyle 205 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->MONTARON;linkStyle 206 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->QUAYLE;linkStyle 207 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->SAFANA;linkStyle 208 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->SHAR-TEEL;linkStyle 209 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->SKIE;linkStyle 210 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->TIAX;linkStyle 211 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->VICONIA;linkStyle 212 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->XAN;linkStyle 213 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->XZAR;linkStyle 214 stroke-width:2px,fill:none,stroke:blue;
+GARRICK-->YESLICK;linkStyle 215 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->AJANTIS;linkStyle 216 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->ALORA;linkStyle 217 stroke-width:2px,fill:none,stroke:green;
+IMOEN-->BRANWEN;linkStyle 218 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->CORAN;linkStyle 219 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->DYNAHEIR;linkStyle 220 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->EDWIN;linkStyle 221 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->ELDOTH;linkStyle 222 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->FALDORN;linkStyle 223 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->GARRICK;linkStyle 224 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->JAHEIRA;linkStyle 225 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KAGAIN;linkStyle 226 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KHALID;linkStyle 227 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KIVAN;linkStyle 228 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->MINSC;linkStyle 229 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->MONTARON;linkStyle 230 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->QUAYLE;linkStyle 231 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SAFANA;linkStyle 232 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SHAR-TEEL;linkStyle 233 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SKIE;linkStyle 234 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->TIAX;linkStyle 235 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->VICONIA;linkStyle 236 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->XAN;linkStyle 237 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->XZAR;linkStyle 238 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->YESLICK;linkStyle 239 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->AJANTIS;linkStyle 240 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->ALORA;linkStyle 241 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->BRANWEN;linkStyle 242 stroke-width:2px,fill:none,stroke:green;
+JAHEIRA-->CORAN;linkStyle 243 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->DYNAHEIR;linkStyle 244 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->EDWIN;linkStyle 245 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->ELDOTH;linkStyle 246 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->FALDORN;linkStyle 247 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->GARRICK;linkStyle 248 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->IMOEN;linkStyle 249 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->KAGAIN;linkStyle 250 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->KHALID;linkStyle 251 stroke-width:2px,fill:none,stroke:green;
+JAHEIRA-->KIVAN;linkStyle 252 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->MINSC;linkStyle 253 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->MONTARON;linkStyle 254 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->QUAYLE;linkStyle 255 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SAFANA;linkStyle 256 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SHAR-TEEL;linkStyle 257 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SKIE;linkStyle 258 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->TIAX;linkStyle 259 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->VICONIA;linkStyle 260 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->XAN;linkStyle 261 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->XZAR;linkStyle 262 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->YESLICK;linkStyle 263 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->AJANTIS;linkStyle 264 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->ALORA;linkStyle 265 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->BRANWEN;linkStyle 266 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->CORAN;linkStyle 267 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->DYNAHEIR;linkStyle 268 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->EDWIN;linkStyle 269 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->ELDOTH;linkStyle 270 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->FALDORN;linkStyle 271 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->GARRICK;linkStyle 272 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->IMOEN;linkStyle 273 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->JAHEIRA;linkStyle 274 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->KHALID;linkStyle 275 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->KIVAN;linkStyle 276 stroke-width:2px      IMOEN-->AJANTIS;linkStyle 216 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->ALORA;linkStyle 217 stroke-width:2px,fill:none,stroke:green;
+IMOEN-->BRANWEN;linkStyle 218 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->CORAN;linkStyle 219 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->DYNAHEIR;linkStyle 220 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->EDWIN;linkStyle 221 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->ELDOTH;linkStyle 222 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->FALDORN;linkStyle 223 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->GARRICK;linkStyle 224 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->JAHEIRA;linkStyle 225 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KAGAIN;linkStyle 226 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KHALID;linkStyle 227 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->KIVAN;linkStyle 228 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->MINSC;linkStyle 229 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->MONTARON;linkStyle 230 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->QUAYLE;linkStyle 231 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SAFANA;linkStyle 232 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SHAR-TEEL;linkStyle 233 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->SKIE;linkStyle 234 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->TIAX;linkStyle 235 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->VICONIA;linkStyle 236 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->XAN;linkStyle 237 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->XZAR;linkStyle 238 stroke-width:2px,fill:none,stroke:blue;
+IMOEN-->YESLICK;linkStyle 239 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->AJANTIS;linkStyle 240 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->ALORA;linkStyle 241 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->BRANWEN;linkStyle 242 stroke-width:2px,fill:none,stroke:green;
+JAHEIRA-->CORAN;linkStyle 243 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->DYNAHEIR;linkStyle 244 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->EDWIN;linkStyle 245 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->ELDOTH;linkStyle 246 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->FALDORN;linkStyle 247 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->GARRICK;linkStyle 248 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->IMOEN;linkStyle 249 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->KAGAIN;linkStyle 250 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->KHALID;linkStyle 251 stroke-width:2px,fill:none,stroke:green;
+JAHEIRA-->KIVAN;linkStyle 252 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->MINSC;linkStyle 253 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->MONTARON;linkStyle 254 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->QUAYLE;linkStyle 255 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SAFANA;linkStyle 256 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SHAR-TEEL;linkStyle 257 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->SKIE;linkStyle 258 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->TIAX;linkStyle 259 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->VICONIA;linkStyle 260 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->XAN;linkStyle 261 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->XZAR;linkStyle 262 stroke-width:2px,fill:none,stroke:blue;
+JAHEIRA-->YESLICK;linkStyle 263 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->AJANTIS;linkStyle 264 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->ALORA;linkStyle 265 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->BRANWEN;linkStyle 266 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->CORAN;linkStyle 267 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->DYNAHEIR;linkStyle 268 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->EDWIN;linkStyle 269 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->ELDOTH;linkStyle 270 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->FALDORN;linkStyle 271 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->GARRICK;linkStyle 272 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->IMOEN;linkStyle 273 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->JAHEIRA;linkStyle 274 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->KHALID;linkStyle 275 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->KIVAN;linkStyle 276 stroke-width:2px,fill:none,stroke:red;
+KAGAIN-->MINSC;linkStyle 277 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->MONTARON;linkStyle 278 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->QUAYLE;linkStyle 279 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->SAFANA;linkStyle 280 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->SHAR-TEEL;linkStyle 281 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->SKIE;linkStyle 282 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->TIAX;linkStyle 283 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->VICONIA;linkStyle 284 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->XAN;linkStyle 285 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->XZAR;linkStyle 286 stroke-width:2px,fill:none,stroke:blue;
+KAGAIN-->YESLICK;linkStyle 287 stroke-width:2px,fill:none,stroke:red;
+KHALID-->AJANTIS;linkStyle 288 stroke-width:2px,fill:none,stroke:green;
+KHALID-->ALORA;linkStyle 289 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->BRANWEN;linkStyle 290 stroke-width:2px,fill:none,stroke:green;
+KHALID-->CORAN;linkStyle 291 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->DYNAHEIR;linkStyle 292 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->EDWIN;linkStyle 293 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->ELDOTH;linkStyle 294 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->FALDORN;linkStyle 295 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->GARRICK;linkStyle 296 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->IMOEN;linkStyle 297 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->JAHEIRA;linkStyle 298 stroke-width:2px,fill:none,stroke:green;
+KHALID-->KAGAIN;linkStyle 299 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->KIVAN;linkStyle 300 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->MINSC;linkStyle 301 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->MONTARON;linkStyle 302 stroke-width:2px,fill:none,stroke:red;
+KHALID-->QUAYLE;linkStyle 303 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->SAFANA;linkStyle 304 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->SHAR-TEEL;linkStyle 305 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->SKIE;linkStyle 306 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->TIAX;linkStyle 307 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->VICONIA;linkStyle 308 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->XAN;linkStyle 309 stroke-width:2px,fill:none,stroke:blue;
+KHALID-->XZAR;linkStyle 310 stroke-width:2px,fill:none,stroke:red;
+KHALID-->YESLICK;linkStyle 311 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->AJANTIS;linkStyle 312 stroke-width:2px,fill:none,stroke:green;
+KIVAN-->ALORA;linkStyle 313 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->BRANWEN;linkStyle 314 stroke-width:2px,fill:none,stroke:green;
+KIVAN-->CORAN;linkStyle 315 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->DYNAHEIR;linkStyle 316 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->EDWIN;linkStyle 317 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->ELDOTH;linkStyle 318 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->FALDORN;linkStyle 319 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->GARRICK;linkStyle 320 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->IMOEN;linkStyle 321 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->JAHEIRA;linkStyle 322 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->KAGAIN;linkStyle 323 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->KHALID;linkStyle 324 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->MINSC;linkStyle 325 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->MONTARON;linkStyle 326 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->QUAYLE;linkStyle 327 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->SAFANA;linkStyle 328 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->SHAR-TEEL;linkStyle 329 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->SKIE;linkStyle 330 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->TIAX;linkStyle 331 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->VICONIA;linkStyle 332 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->XAN;linkStyle 333 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->XZAR;linkStyle 334 stroke-width:2px,fill:none,stroke:blue;
+KIVAN-->YESLICK;linkStyle 335 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->AJANTIS;linkStyle 336 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->ALORA;linkStyle 337 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->BRANWEN;linkStyle 338 stroke-width:2px,fill:none,stroke:green;
+MINSC-->CORAN;linkStyle 339 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->DYNAHEIR;linkStyle 340 stroke-width:2px,fill:none,stroke:green;
+MINSC-->EDWIN;linkStyle 341 stroke-width:2px,fill:none,stroke:red;
+MINSC-->ELDOTH;linkStyle 342 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->FALDORN;linkStyle 343 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->GARRICK;linkStyle 344 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->IMOEN;linkStyle 345 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->JAHEIRA;linkStyle 346 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KAGAIN;linkStyle 347 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KHALID;linkStyle 348 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KIVAN;linkStyle 349 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->MONTARON;linkStyle 350 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->QUAYLE;linkStyle 351 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SAFANA;linkStyle 352 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SHAR-TEEL;linkStyle 353 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SKIE;linkStyle 354 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->TIAX;linkStyle 355 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->VICONIA;linkStyle 356 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->XAN;linkStyle 357 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->XZAR;linkStyle 358 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->YESLICK;linkStyle 359 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->AJANTIS;linkStyle 360 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->ALORA;linkStyle 361 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->BRANWEN;linkStyle 362 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->CORAN;linkStyle 363 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->DYNAHEIR;linkStyle 364 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->EDWIN;linkStyle 365 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->ELDOTH;linkStyle 366 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->FALDORN;linkStyle 367 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->GARRICK;linkStyle 368 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->IMOEN;linkStyle 369 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->JAHEIRA;linkStyle 370 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->KAGAIN;linkStyle 371 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->KHALID;linkStyle 372 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->KIVAN;linkStyle 373 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->MINSC;linkStyle 374 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->QUAYLE;linkStyle 375 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SAFANA;linkStyle 376 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SHAR-TEEL;linkStyle 377 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SKIE;linkStyle 378 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->TIAX;linkStyle 379 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->VICONIA;linkStyle 380 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->XAN;linkStyle 381 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->XZAR;linkStyle 382 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->YESLICK;linkStyle 383 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->AJANTIS;linkStyle 384 stroke-width:2px,fill:none,stroke:red;
+QUAYLE-->ALORA;linkStyle 385 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->BRANWEN;linkStyle 386 stroke-width:2px,fill:none,stroke:red;
+QUAYLE-->CORAN;linkStyle 387 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->DYNAHEIR;linkStyle 388 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->EDWIN;linkStyle 389 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->ELDOTH;linkStyle 390 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->FALDORN;linkStyle 391 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->GARRICK;linkStyle 392 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->IMOEN;linkStyle 393 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->JAHEIRA;linkStyle 394 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KAGAIN;linkStyle 395 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KHALID;linkStyle 396 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KIVAN;linkStyle 397 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->MINSC;linkStyle 398 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->MONTARON;linkStyle 399 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SAFANA;linkStyle 400 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SHAR-TEEL;linkStyle 401 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SKIE;linkStyle 402 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->TIAX;linkStyle 403 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->VICONIA;linkStyle 404 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->XAN;linkStyle 405 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->XZAR;linkStyle 406 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->YESLICK;linkStyle 407 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->AJANTIS;linkStyle 336 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->ALORA;linkStyle 337 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->BRANWEN;linkStyle 338 stroke-width:2px,fill:none,stroke:green;
+MINSC-->CORAN;linkStyle 339 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->DYNAHEIR;linkStyle 340 stroke-width:2px,fill:none,stroke:green;
+MINSC-->EDWIN;linkStyle 341 stroke-width:2px,fill:none,stroke:red;
+MINSC-->ELDOTH;linkStyle 342 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->FALDORN;linkStyle 343 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->GARRICK;linkStyle 344 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->IMOEN;linkStyle 345 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->JAHEIRA;linkStyle 346 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KAGAIN;linkStyle 347 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KHALID;linkStyle 348 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->KIVAN;linkStyle 349 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->MONTARON;linkStyle 350 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->QUAYLE;linkStyle 351 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SAFANA;linkStyle 352 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SHAR-TEEL;linkStyle 353 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->SKIE;linkStyle 354 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->TIAX;linkStyle 355 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->VICONIA;linkStyle 356 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->XAN;linkStyle 357 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->XZAR;linkStyle 358 stroke-width:2px,fill:none,stroke:blue;
+MINSC-->YESLICK;linkStyle 359 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->AJANTIS;linkStyle 360 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->ALORA;linkStyle 361 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->BRANWEN;linkStyle 362 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->CORAN;linkStyle 363 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->DYNAHEIR;linkStyle 364 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->EDWIN;linkStyle 365 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->ELDOTH;linkStyle 366 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->FALDORN;linkStyle 367 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->GARRICK;linkStyle 368 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->IMOEN;linkStyle 369 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->JAHEIRA;linkStyle 370 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->KAGAIN;linkStyle 371 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->KHALID;linkStyle 372 stroke-width:2px,fill:none,stroke:red;
+MONTARON-->KIVAN;linkStyle 373 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->MINSC;linkStyle 374 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->QUAYLE;linkStyle 375 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SAFANA;linkStyle 376 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SHAR-TEEL;linkStyle 377 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->SKIE;linkStyle 378 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->TIAX;linkStyle 379 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->VICONIA;linkStyle 380 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->XAN;linkStyle 381 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->XZAR;linkStyle 382 stroke-width:2px,fill:none,stroke:blue;
+MONTARON-->YESLICK;linkStyle 383 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->AJANTIS;linkStyle 384 stroke-width:2px,fill:none,stroke:red;
+QUAYLE-->ALORA;linkStyle 385 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->BRANWEN;linkStyle 386 stroke-width:2px,fill:none,stroke:red;
+QUAYLE-->CORAN;linkStyle 387 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->DYNAHEIR;linkStyle 388 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->EDWIN;linkStyle 389 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->ELDOTH;linkStyle 390 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->FALDORN;linkStyle 391 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->GARRICK;linkStyle 392 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->IMOEN;linkStyle 393 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->JAHEIRA;linkStyle 394 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KAGAIN;linkStyle 395 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KHALID;linkStyle 396 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->KIVAN;linkStyle 397 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->MINSC;linkStyle 398 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->MONTARON;linkStyle 399 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SAFANA;linkStyle 400 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SHAR-TEEL;linkStyle 401 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->SKIE;linkStyle 402 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->TIAX;linkStyle 403 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->VICONIA;linkStyle 404 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->XAN;linkStyle 405 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->XZAR;linkStyle 406 stroke-width:2px,fill:none,stroke:blue;
+QUAYLE-->YESLICK;linkStyle 407 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->AJANTIS;linkStyle 480 stroke-width:2px,fill:none,stroke:red;
+TIAX-->ALORA;linkStyle 481 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->BRANWEN;linkStyle 482 stroke-width:2px,fill:none,stroke:red;
+TIAX-->CORAN;linkStyle 483 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->DYNAHEIR;linkStyle 484 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->EDWIN;linkStyle 485 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->ELDOTH;linkStyle 486 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->FALDORN;linkStyle 487 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->GARRICK;linkStyle 488 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->IMOEN;linkStyle 489 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->JAHEIRA;linkStyle 490 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->KAGAIN;linkStyle 491 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->KHALID;linkStyle 492 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->KIVAN;linkStyle 493 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->MINSC;linkStyle 494 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->MONTARON;linkStyle 495 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->QUAYLE;linkStyle 496 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->SAFANA;linkStyle 497 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->SHAR-TEEL;linkStyle 498 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->SKIE;linkStyle 499 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->VICONIA;linkStyle 500 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->XAN;linkStyle 501 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->XZAR;linkStyle 502 stroke-width:2px,fill:none,stroke:blue;
+TIAX-->YESLICK;linkStyle 503 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->AJANTIS;linkStyle 504 stroke-width:2px,fill:none,stroke:red;
+VICONIA-->ALORA;linkStyle 505 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->BRANWEN;linkStyle 506 stroke-width:2px,fill:none,stroke:red;
+VICONIA-->CORAN;linkStyle 507 stroke-width:2px,fill:none,stroke:green;
+VICONIA-->DYNAHEIR;linkStyle 508 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->EDWIN;linkStyle 509 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->ELDOTH;linkStyle 510 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->FALDORN;linkStyle 511 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->GARRICK;linkStyle 512 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->IMOEN;linkStyle 513 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->JAHEIRA;linkStyle 514 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->KAGAIN;linkStyle 515 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->KHALID;linkStyle 516 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->KIVAN;linkStyle 517 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->MINSC;linkStyle 518 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->MONTARON;linkStyle 519 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->QUAYLE;linkStyle 520 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->SAFANA;linkStyle 521 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->SHAR-TEEL;linkStyle 522 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->SKIE;linkStyle 523 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->TIAX;linkStyle 524 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->XAN;linkStyle 525 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->XZAR;linkStyle 526 stroke-width:2px,fill:none,stroke:blue;
+VICONIA-->YESLICK;linkStyle 527 stroke-width:2px,fill:none,stroke:blue;
+XAN-->AJANTIS;linkStyle 528 stroke-width:2px,fill:none,stroke:red;
+XAN-->ALORA;linkStyle 529 stroke-width:2px,fill:none,stroke:red;
+XAN-->BRANWEN;linkStyle 530 stroke-width:2px,fill:none,stroke:blue;
+XAN-->CORAN;linkStyle 531 stroke-width:2px,fill:none,stroke:blue;
+XAN-->DYNAHEIR;linkStyle 532 stroke-width:2px,fill:none,stroke:blue;
+XAN-->EDWIN;linkStyle 533 stroke-width:2px,fill:none,stroke:red;
+XAN-->ELDOTH;linkStyle 534 stroke-width:2px,fill:none,stroke:red;
+XAN-->FALDORN;linkStyle 535 stroke-width:2px,fill:none,stroke:blue;
+XAN-->GARRICK;linkStyle 536 stroke-width:2px,fill:none,stroke:blue;
+XAN-->IMOEN;linkStyle 537 stroke-width:2px,fill:none,stroke:blue;
+XAN-->JAHEIRA;linkStyle 538 stroke-width:2px,fill:none,stroke:green;
+XAN-->KAGAIN;linkStyle 539 stroke-width:2px,fill:none,stroke:blue;
+XAN-->KHALID;linkStyle 540 stroke-width:2px,fill:none,stroke:blue;
+XAN-->KIVAN;linkStyle 541 stroke-width:2px,fill:none,stroke:green;
+XAN-->MINSC;linkStyle 542 stroke-width:2px,fill:none,stroke:blue;
+XAN-->MONTARON;linkStyle 543 stroke-width:2px,fill:none,stroke:blue;
+XAN-->QUAYLE;linkStyle 544 stroke-width:2px,fill:none,stroke:red;
+XAN-->SAFANA;linkStyle 545 stroke-width:2px,fill:none,stroke:blue;
+XAN-->SHAR-TEEL;linkStyle 546 stroke-width:2px,fill:none,stroke:blue;
+XAN-->SKIE;linkStyle 547 stroke-width:2px,fill:none,stroke:blue;
+XAN-->TIAX;linkStyle 548 stroke-width:2px,fill:none,stroke:blue;
+XAN-->VICONIA;linkStyle 549 stroke-width:2px,fill:none,stroke:blue;
+XAN-->XZAR;linkStyle 550 stroke-width:2px,fill:none,stroke:blue;
+XAN-->YESLICK;linkStyle 551 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->AJANTIS;linkStyle 552 stroke-width:2px,fill:none,stroke:red;
+XZAR-->ALORA;linkStyle 553 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->BRANWEN;linkStyle 554 stroke-width:2px,fill:none,stroke:red;
+XZAR-->CORAN;linkStyle 555 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->DYNAHEIR;linkStyle 556 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->EDWIN;linkStyle 557 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->ELDOTH;linkStyle 558 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->FALDORN;linkStyle 559 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->GARRICK;linkStyle 560 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->IMOEN;linkStyle 561 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->JAHEIRA;linkStyle 562 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->KAGAIN;linkStyle 563 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->KHALID;linkStyle 564 stroke-width:2px,fill:none,stroke:red;
+XZAR-->KIVAN;linkStyle 565 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->MINSC;linkStyle 566 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->MONTARON;linkStyle 567 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->QUAYLE;linkStyle 568 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->SAFANA;linkStyle 569 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->SHAR-TEEL;linkStyle 570 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->SKIE;linkStyle 571 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->TIAX;linkStyle 572 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->VICONIA;linkStyle 573 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->XAN;linkStyle 574 stroke-width:2px,fill:none,stroke:blue;
+XZAR-->YESLICK;linkStyle 575 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->AJANTIS;linkStyle 576 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->ALORA;linkStyle 577 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->BRANWEN;linkStyle 578 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->CORAN;linkStyle 579 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->DYNAHEIR;linkStyle 580 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->EDWIN;linkStyle 581 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->ELDOTH;linkStyle 582 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->FALDORN;linkStyle 583 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->GARRICK;linkStyle 584 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->IMOEN;linkStyle 585 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->JAHEIRA;linkStyle 586 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->KAGAIN;linkStyle 587 stroke-width:2px,fill:none,stroke:red;
+YESLICK-->KHALID;linkStyle 588 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->KIVAN;linkStyle 589 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->MINSC;linkStyle 590 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->MONTARON;linkStyle 591 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->QUAYLE;linkStyle 592 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->SAFANA;linkStyle 593 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->SHAR-TEEL;linkStyle 594 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->SKIE;linkStyle 595 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->TIAX;linkStyle 596 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->VICONIA;linkStyle 597 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->XAN;linkStyle 598 stroke-width:2px,fill:none,stroke:blue;
+YESLICK-->XZAR;linkStyle 599 stroke-width:2px,fill:none,stroke:blue;
 ```
