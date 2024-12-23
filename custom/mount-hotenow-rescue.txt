@@ -1,0 +1,27 @@
+Rules:
+
+- Dice roll higher than 9, attack, otherwise miss a turn
+- Enemies you have defeated can return to the game
+- When you pass a stage, you get bonus health or coins
+- When you defeat an enemy, depending on their strength, defence, and speed, the number of coins you get varies
+- When you defeat the boss, you get two extra coins
+
+Characters:
+
+Amber Flame
+10 health, 2 coins
+Amber hails from Neverwinter Wood, where she lives in a cabin near a river. She lives alone by herself, and she is a very skillful archer. She is a very kind person, and she is always willing to help others. She is also very good at cooking, and a very sneaky thief to the bad guys, and she is a very good friend.
+
+Bjorn Frostbeard
+15 health, 1 coin
+Bjorn is a dwarf from the mountains of Icewind Dale. He is a very strong warrior, and he is very good at fighting. He is also very good at cooking, and he is a very good friend. He is also very good at cooking, and he is a very good friend. He is also very good at cooking, and he is a very good friend.
+
+Stage 1
+The evil archer sent the trolls to banish you from the land.
+Bjorn distracted the trolls but got hit. Amber attacked from behind, shot 3 arrows, killed all 3 trolls. You got 3 coins each.
+The evil archer shot the mythical arrow to take you down, lost 2 points.
+The trolls were healed by the evil archer, and they ran to protect the evil archer.
+Bjorn attacked the trolls, killed all 6 of them, and they ra away to Gauntlgrym.
+Evil archer shot at Bjorn and missed.
+Evil archer shot at Amber and hit 1 damage.
+Amber shot the evil archer at the heart. The evil archer died.
